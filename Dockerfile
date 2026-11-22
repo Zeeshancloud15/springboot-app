@@ -5,7 +5,7 @@ WORKDIR /app
 ARG NEXUS_USER
 ARG NEXUS_PASS
 
-ENV NEXUS_REPO_URL="http://18.214.15.83:8081/repository/maven-release/"
+ENV NEXUS_REPO_URL="http://3.235.107.89:8081/repository/maven-release/"
 ENV ARTIFACT_PATH="com/devops/springboot-app/1.0/springboot-app-1.0.jar"
 
 RUN apt-get update && apt-get install -y wget \
